@@ -1,0 +1,96 @@
+.search-button{
+    font-family: helvetica;
+}
+
+input.input-group{
+    display: inline-block;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    width: 20%;
+}
+
+.search-bar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+}
+
+.thumbnail{
+    text-align: center;
+    position: fixed;
+    margin: 4rem;
+    margin-top: 0;
+    padding: 5rem;
+    padding-top: 0;
+    border: none;
+}
+
+.save-button{
+    font-family: helvetica;
+    font-size: 5rem;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+
+.location-list{
+    height: 5rem;
+    white-space: nowrap;
+    padding-bottom: 3rem;
+    overflow: auto;
+    overflow-x:scroll; 
+    overflow-y:hidden;
+}
+
+/*GARBAGE CSS*/
+/*input.weather-search-form{
+    outline: none;
+    border: 3px solid black;
+    float: left;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+input.weather-search-form:focus{
+    background-color: transparent;
+    border-color: blue;
+}
+
+input.search-input {
+    outline: none;
+    text-decoration: none;
+    font-family: 'icons';
+    float:left;
+    margin-top:-2px;
+    border: none;
+    background-color: white;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+input.search-input:focus{
+    color: blue;
+}
+
+.search-form{
+    display: block;
+}
+
+.location{
+    list-style: none;
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.location-list{
+    padding-top: 5rem;
+    padding-left: 0;
+}*/
