@@ -8,10 +8,17 @@ router.get('/',(req,res)=>{
 })
 
 router.get('/getweather/:zip', function(req, res){
-    request("http://api.openweathermap.org/data/2.5/weather?zip=" + req.params.zip + ",us&APPID=" + openWeatherId, function (error, response, body) {
-        var data = JSON.parse(body)
-        res.json(data);
-    })
-})
+  request({
+    url: "http://api.openweathermap.org/data/2.5/weather", 
+    qs:{
+      // zip has to point to {zip},{country}
+      zip: req.params.zip+',us',
+      APPID: openWeatherId
+    }
+  },function (error, response, body) {
+    var data = JSON.parse(body)
+    res.json(data);
+  })
+});
 
 module.exports = router;
